@@ -1,8 +1,8 @@
 {
     "schema":  "dango-public-manifest-v1",
     "generated_at":  "2026-11-10",
-    "file_count":  298,
-    "total_bytes":  4621641,
+    "file_count":  299,
+    "total_bytes":  4650867,
     "files":  [
                   {
                       "path":  ".gitignore",
@@ -76,8 +76,8 @@
                   },
                   {
                       "path":  "README.md",
-                      "bytes":  2206,
-                      "sha256":  "8d6d391d60c20b732a974b89fbeb8c428eac58f15eac6e60f13bf1b4f16b9197"
+                      "bytes":  7608,
+                      "sha256":  "b2e358ac01e9546e3b22dc4601bced7ac93211320cea56cc4ede646fb7ec3b1f"
                   },
                   {
                       "path":  "register_outlook.py",
@@ -163,6 +163,11 @@
                       "path":  "config-templates/roxy.settings.example.json",
                       "bytes":  725,
                       "sha256":  "cdbc31c9b244ff1d56e91e457090214437645899bf20d30e6bb463b5828ad927"
+                  },
+                  {
+                      "path":  "docs/PROJECT_GUIDE.md",
+                      "bytes":  23824,
+                      "sha256":  "3dbbaf83d603251082b02984b72575795f724688a044429c5608cb84ec8a2a07"
                   },
                   {
                       "path":  "mail_providers/base.py",
