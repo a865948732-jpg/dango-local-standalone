@@ -1,0 +1,19 @@
+# Never publish runtime data or local credentials.
+webui/*.db
+webui/*.db-*
+webui/*.sqlite
+webui/*.sqlite3
+webui/refine-state/
+webui/refine-state.*
+.env
+.env.*
+roxy.local.json
+roxy.settings.json
+.venv/
+webui/frontend/node_modules/
+__pycache__/
+*.py[cod]
+*.log
+deployment-backups/
+deployment-builds/
+diagnostics/

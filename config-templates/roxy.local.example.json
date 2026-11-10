@@ -1,0 +1,7 @@
+{
+  "ROXY_API_BASE": "http://127.0.0.1:50000",
+  "ROXY_WORKSPACE_ID": "1",
+  "ROXY_PROJECT_ID": "1",
+  "REPO0810_ROXY_LEGACY_ROOT": ".\\roxy-helper",
+  "REPO0810_ROXY_PYTHON": ".\\.venv\\Scripts\\python.exe"
+}

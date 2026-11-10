@@ -1,0 +1,1 @@
+import{aa as t}from"./index-DYc7IaLI.js";const e=()=>t.get("/api/roxy/connection",{timeout:8e3}),a=()=>t.get("/api/roxy/settings"),n=o=>t.put("/api/roxy/settings",o),i=()=>t.get("/api/roxy/workspaces",{timeout:3e4});export{a,i as b,e as g,n as s};

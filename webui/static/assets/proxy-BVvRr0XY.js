@@ -1,0 +1,1 @@
+import{aa as t}from"./index-DYc7IaLI.js";const r=(o,s=8)=>t.post("/api/proxy/test",{proxies:o,timeout:s},{timeout:18e4}),a=o=>t.post("/api/roxy/proxies/sync",{proxies:o},{timeout:9e4,headers:{"X-Dango-Proxy-Sync":"1"}});export{a as s,r as t};

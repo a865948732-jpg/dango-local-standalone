@@ -1,0 +1,78 @@
+{
+  "source_root": "E:\\Registration\\5102-chatgpt-rebind-shareable-20260903\\5102-chatgpt-rebind-shareable-20260903",
+  "purpose": "Isolated Roxy helper used by webui.roxy_worker; Python source only; no credentials or data copied",
+  "files": [
+    {
+      "file": "config\\__init__.py",
+      "sha256": "aa7863f521c056653f8888406900d1a5058234ce2aebd47a83db1b65b2af23d4"
+    },
+    {
+      "file": "config\\browser.py",
+      "sha256": "cfe73fcd84b0110ab50583f053af33c3fed074890d0f01cc1076eb74a7433634"
+    },
+    {
+      "file": "config\\email.py",
+      "sha256": "d39ba32955446808c0ab1f62419997a982f69a83aebb0533addb47b775d77a11"
+    },
+    {
+      "file": "config\\env_loader.py",
+      "sha256": "d4334bb1d24e2d4d46fa584a9dfa3b071b7518d44b1ea52a3a52135f118bf55e"
+    },
+    {
+      "file": "config\\humanize.py",
+      "sha256": "42754c0c75116f0a6394547312eb0c33098cda85f96d1194a024782a02dd5630"
+    },
+    {
+      "file": "config\\openai_protocol.py",
+      "sha256": "18fbcb60eb3ba19977323a9887f9b1cf8ea658340fbc542ec5f77720713ebbaa"
+    },
+    {
+      "file": "config\\proxy.py",
+      "sha256": "7c06a6fd7e1059e54b928b740cc52e6b8252bb0f5f53d075573ac474974babcb"
+    },
+    {
+      "file": "config\\register.py",
+      "sha256": "afca9b3c68533fdd3828bed73f8ee4313d12091b4b14460e1def97d77bdcbc50"
+    },
+    {
+      "file": "config\\roxybrowser.py",
+      "sha256": "8b1c3af8e1fe6a930bfe696dcf9c978ad358b448f8e5a7ecdb6d94827bbb7b8d"
+    },
+    {
+      "file": "config\\twofa.py",
+      "sha256": "00fcc21de781554fd692ec1171211705007ed52df4c7cfdc7adb4569584c0224"
+    },
+    {
+      "file": "core\\__init__.py",
+      "sha256": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+    },
+    {
+      "file": "core\\account_export.py",
+      "sha256": "f6531f193ad1bb0bf20d82c728c9b1aacbd50e8fd037d40d66c32f61689caa19"
+    },
+    {
+      "file": "core\\email_provider.py",
+      "sha256": "81b0c91f9be11742ee85882056680afd537cba211b4875a7c514df76adb0d220"
+    },
+    {
+      "file": "core\\humanize.py",
+      "sha256": "e341b987ebfd81c7e812faa8ede18db7815fa4848c889faa29fb5e1a8f73a117"
+    },
+    {
+      "file": "core\\roxy_registration.py",
+      "sha256": "cd3116f7989667149d4e706f1483ff03d797399378a2999184766317d1af81b9"
+    },
+    {
+      "file": "core\\roxybrowser_client.py",
+      "sha256": "370a169ad6fffb0ff8648df22a894d9b9f16ba758a014661e965098f4e289843"
+    },
+    {
+      "file": "core\\session.py",
+      "sha256": "a16df05070fcbdc4409203c159f524da0a3c2f790ac8ec5933ceea2be70147f8"
+    },
+    {
+      "file": "core\\proxy_provider.py",
+      "sha256": "60e9bc5bc881d660d41143d1d97a1df07a1ba3f2629302b25334775c7700df8a"
+    }
+  ]
+}

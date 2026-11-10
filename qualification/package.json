@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "qualification-sentinel-runtime",
+  "description": "Local Sentinel runtime for native payment qualification checks",
+  "dependencies": {
+    "jsdom": "^30.0.1"
+  }
+}

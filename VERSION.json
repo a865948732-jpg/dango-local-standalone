@@ -1,0 +1,9 @@
+﻿{
+    "schema":  "dango-public-release-v1",
+    "release_date":  "2026-11-10",
+    "source_root":  "D:\\Dango-local-standalone",
+    "app_port":  8765,
+    "data_mode":  "fresh-local-database",
+    "credentials_included":  false,
+    "roxy_profile_included":  false
+}

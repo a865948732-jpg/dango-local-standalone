@@ -1,0 +1,13 @@
+# ChatGPT 纯协议注册（Outlook 邮箱版）依赖
+
+# HTTP 客户端 + TLS 指纹模拟（Cloudflare 绕过的关键）
+curl-cffi>=0.7.0
+requests>=2.31.0
+
+# WebUI（可选；只跑 register_outlook.py 命令行不需要）
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# 可选 Roxy 浏览器驱动（纯协议默认路径不会启动浏览器）
+selenium>=4.20.0

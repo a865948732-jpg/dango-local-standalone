@@ -1,0 +1,1509 @@
+{
+    "schema":  "dango-public-manifest-v1",
+    "generated_at":  "2026-11-10",
+    "file_count":  298,
+    "total_bytes":  4621641,
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "bytes":  311,
+                      "sha256":  "a0dbdc37100a65bd57c14d1c9cc30c7381d0be9f37331d5c71f66ce5c69cb5f4"
+                  },
+                  {
+                      "path":  "auth_flow.py",
+                      "bytes":  251132,
+                      "sha256":  "b9b31ceaea45ec49385f9ed3a5984ff61876a30bc2523b42ec4593327fc27b74"
+                  },
+                  {
+                      "path":  "check_roxy_import.py",
+                      "bytes":  3892,
+                      "sha256":  "4d419c14156584f5ab12d1f0b1232b11c0b684593bb7eaa8b7f19309506295bb"
+                  },
+                  {
+                      "path":  "config.py",
+                      "bytes":  2741,
+                      "sha256":  "6dd39f2b8ba5482508edf0356f4b8a2db986e19b845df5148bd85a72fc3a69e4"
+                  },
+                  {
+                      "path":  "fingerprint.py",
+                      "bytes":  27906,
+                      "sha256":  "3b3af2c8e8cb5bd8e8662670cb1bde1f004f61520662d66655bfc861ae18c93b"
+                  },
+                  {
+                      "path":  "http_client.py",
+                      "bytes":  14216,
+                      "sha256":  "f3c5cb3dc9c4ca652c1a583249a2ddd104f5170a6635cb3f7582b7bb5d042889"
+                  },
+                  {
+                      "path":  "install_local_task.ps1",
+                      "bytes":  1689,
+                      "sha256":  "2fdace63929c09795c922d469ad8828f34b317ec5b5a9b5043385c76b339e67d"
+                  },
+                  {
+                      "path":  "install_task_public.ps1",
+                      "bytes":  1623,
+                      "sha256":  "16f22da72179cbf858a607da578b303d3b42246a36a673e7ef59ee31e1dae6e9"
+                  },
+                  {
+                      "path":  "launch_webui.vbs",
+                      "bytes":  1594,
+                      "sha256":  "8de10fd91bfa34426b2331effa7f437c5006563f67604aaca6d50677b9724bef"
+                  },
+                  {
+                      "path":  "mail_cf.py",
+                      "bytes":  1479,
+                      "sha256":  "c6542ed6ad1e36f92f2374a4103968ea4cd4eec740d3629e4c57b0088c6163c0"
+                  },
+                  {
+                      "path":  "mail_outlook.py",
+                      "bytes":  2238,
+                      "sha256":  "3d48445fec6eb6f67331dc651c0155a3e844589a5601a8df5ae8b0563d1bb85a"
+                  },
+                  {
+                      "path":  "NOTICE.md",
+                      "bytes":  362,
+                      "sha256":  "40b8681c677e6dab2f122fc9cc934029adaaf761402a77105b47c12dc4bce832"
+                  },
+                  {
+                      "path":  "openai_sentinel_quickjs.js",
+                      "bytes":  20398,
+                      "sha256":  "8febc15fb98f54e8bb547381ee75fdd79d2ae86c550c6e728433c2fce969a828"
+                  },
+                  {
+                      "path":  "password_verification.py",
+                      "bytes":  5533,
+                      "sha256":  "9f72b4a4c54e7b8bcf5b7dbd366f4099508b59f7ca930ba7b98a873c94fd09ef"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  2206,
+                      "sha256":  "8d6d391d60c20b732a974b89fbeb8c428eac58f15eac6e60f13bf1b4f16b9197"
+                  },
+                  {
+                      "path":  "register_outlook.py",
+                      "bytes":  3620,
+                      "sha256":  "ab78058a8e00cce8ae819059a9e0ad7aa95b0f30057bbbd524f1c6a49e491161"
+                  },
+                  {
+                      "path":  "requirements.lock.txt",
+                      "bytes":  673,
+                      "sha256":  "86df8c5ce3bda12f6ad28c2d14005b59608dcf9857ccd1b73c4199f97838fdc6"
+                  },
+                  {
+                      "path":  "requirements.txt",
+                      "bytes":  391,
+                      "sha256":  "3314faa20bd942ec863336ba979f1e53e5b38d5e28fe8f048e5c08b5717b7270"
+                  },
+                  {
+                      "path":  "run_hidden.vbs",
+                      "bytes":  750,
+                      "sha256":  "9660573fbe718dab9c6840d4b7bb6603e7a7e68cd28af7857a6891609199ffcb"
+                  },
+                  {
+                      "path":  "run_webui.ps1",
+                      "bytes":  1834,
+                      "sha256":  "52b82da5d92e9634c889b9abbdd05d684733c6720afbba01893304b353dc86b8"
+                  },
+                  {
+                      "path":  "safe_diagnostics.py",
+                      "bytes":  53956,
+                      "sha256":  "7820b98ad1f585742ceec0b20c982966600b8b45a0577cd6028a22573ca2e9df"
+                  },
+                  {
+                      "path":  "SECURITY.md",
+                      "bytes":  301,
+                      "sha256":  "4351c5ddcec79d5209b638131241aa231b762d55d9190f7d79d6d20c9499f3aa"
+                  },
+                  {
+                      "path":  "sentinel.py",
+                      "bytes":  3795,
+                      "sha256":  "040fc81a0b590275c91aa87c5497bec52e868f365b94f3bc9a4c74590d2c2014"
+                  },
+                  {
+                      "path":  "sentinel_quickjs.py",
+                      "bytes":  14484,
+                      "sha256":  "c451b55643763e50dae9a484eb410b1810eb84335e83aae4f47ef5d13d76824b"
+                  },
+                  {
+                      "path":  "setup_windows.ps1",
+                      "bytes":  2391,
+                      "sha256":  "9aa39c7fc3f4ebb37f2809c9cc37427729bd62e782264b6d8520ed55a86d1155"
+                  },
+                  {
+                      "path":  "sms_provider.py",
+                      "bytes":  50105,
+                      "sha256":  "2db0643acce5967bfdb65ee5f9c33fb9a97c8aba748a95d9491a56577bbfee03"
+                  },
+                  {
+                      "path":  "start.cmd",
+                      "bytes":  143,
+                      "sha256":  "e23b9ad9b157757e5d6e6914142ccb84d3a1f1de23b857a28574bb0781aa88f7"
+                  },
+                  {
+                      "path":  "start_public.ps1",
+                      "bytes":  662,
+                      "sha256":  "18680abad6d0c9b75a162eaf414387fcdb0c2870fafb4ac0e7461944f07f2937"
+                  },
+                  {
+                      "path":  "start_webui.py",
+                      "bytes":  2360,
+                      "sha256":  "f783cb75f3567aa71d24805b46d4ad02df62b211061fa1d54ab8db095ecbd667"
+                  },
+                  {
+                      "path":  "VERSION.json",
+                      "bytes":  280,
+                      "sha256":  "13f4ac51c376b75ad55576141cb3e6a02009f088df0b2ae9a9ea9b27ab1161e4"
+                  },
+                  {
+                      "path":  "config-templates/roxy.local.example.json",
+                      "bytes":  210,
+                      "sha256":  "be78bdda4ddecb306d705a8339a28a13396912957ac5f76fbe02e554d6af6a8b"
+                  },
+                  {
+                      "path":  "config-templates/roxy.settings.example.json",
+                      "bytes":  725,
+                      "sha256":  "cdbc31c9b244ff1d56e91e457090214437645899bf20d30e6bb463b5828ad927"
+                  },
+                  {
+                      "path":  "mail_providers/base.py",
+                      "bytes":  25441,
+                      "sha256":  "9a579fe92af493d31fffb1d0efae1fe35c7eb73427b4d4a316a996341cb45de5"
+                  },
+                  {
+                      "path":  "mail_providers/cf_temp.py",
+                      "bytes":  17077,
+                      "sha256":  "7ea9ae9f2c1b996d3966ca8ac13381fe2295e7776d58028b617209f9d054d925"
+                  },
+                  {
+                      "path":  "mail_providers/icloud_relay.py",
+                      "bytes":  80335,
+                      "sha256":  "920901b9ef1bc9bc4649bff78a60319cde22703fbe3594c4fcd1ed8a8373ea79"
+                  },
+                  {
+                      "path":  "mail_providers/outlook.py",
+                      "bytes":  26269,
+                      "sha256":  "308e0d6c470403b7c89e6ba9874c4833075bed7139329a9d25116831ee53a492"
+                  },
+                  {
+                      "path":  "mail_providers/__init__.py",
+                      "bytes":  2028,
+                      "sha256":  "649d7dfa238865f6e8c8a92bf04aa982fffd8b9b879d1cec0b3909f18c6ffa89"
+                  },
+                  {
+                      "path":  "qualification/checker.py",
+                      "bytes":  36492,
+                      "sha256":  "d96757c2d26d7d6c03924e37a2dc2e8452ea2036921b342772d07095e1c41198"
+                  },
+                  {
+                      "path":  "qualification/gen_token_jsdom.js",
+                      "bytes":  5296,
+                      "sha256":  "861d630a801ca355f8c1625b066d789ff9b732e6f9aa6c254b16235b9d30a983"
+                  },
+                  {
+                      "path":  "qualification/int31_client.py",
+                      "bytes":  10919,
+                      "sha256":  "78cabd9310f0e94554e62d4c28dd6f3c5746ca24e8554f458d8752d45a8d0203"
+                  },
+                  {
+                      "path":  "qualification/package-lock.json",
+                      "bytes":  18424,
+                      "sha256":  "10c7dbbf68f4303f9936b26e1eff12120ff849fb94ef3cb69060dbe682e17c7a"
+                  },
+                  {
+                      "path":  "qualification/package.json",
+                      "bytes":  197,
+                      "sha256":  "fcb32cbb00601b3aef89b378e35d12eb249e4115f991daea3f7d15f691effbc0"
+                  },
+                  {
+                      "path":  "qualification/ph_short_extractor.py",
+                      "bytes":  55243,
+                      "sha256":  "c710db7c5ec850811c44ee42b845ddb464d45c6601cdc3c138f47da8f84391bb"
+                  },
+                  {
+                      "path":  "qualification/sentinel_sdk_full.js",
+                      "bytes":  30865,
+                      "sha256":  "a479c25814f754086d2e292158107c41d1ef87620caa3bd5d0777d7f717ac1b2"
+                  },
+                  {
+                      "path":  "qualification/sentinel_token.py",
+                      "bytes":  36867,
+                      "sha256":  "5c33aaafe58e87193bd0fa6104ce21318b99f3ee8bb582c61ac7b4377122fd47"
+                  },
+                  {
+                      "path":  "qualification/__init__.py",
+                      "bytes":  79,
+                      "sha256":  "8d4d1fbb52c89a1c40b3edc5649a03af07ca4f6a4ccf0508c927a3950b85ac7e"
+                  },
+                  {
+                      "path":  "roxy-helper/requirements.txt",
+                      "bytes":  85,
+                      "sha256":  "99c26db2e32b443d78e5c2e532778d95dddc39982a41df4345c90f0cddc10db8"
+                  },
+                  {
+                      "path":  "roxy-helper/SOURCE-MANIFEST.json",
+                      "bytes":  2743,
+                      "sha256":  "002a206c1ab5b630fb7b9e3620290edbcfbe22cd37786879564dc9ad82992e43"
+                  },
+                  {
+                      "path":  "roxy-helper/config/browser.py",
+                      "bytes":  15649,
+                      "sha256":  "cfe73fcd84b0110ab50583f053af33c3fed074890d0f01cc1076eb74a7433634"
+                  },
+                  {
+                      "path":  "roxy-helper/config/email.py",
+                      "bytes":  7162,
+                      "sha256":  "d39ba32955446808c0ab1f62419997a982f69a83aebb0533addb47b775d77a11"
+                  },
+                  {
+                      "path":  "roxy-helper/config/env_loader.py",
+                      "bytes":  8737,
+                      "sha256":  "d4334bb1d24e2d4d46fa584a9dfa3b071b7518d44b1ea52a3a52135f118bf55e"
+                  },
+                  {
+                      "path":  "roxy-helper/config/humanize.py",
+                      "bytes":  2615,
+                      "sha256":  "42754c0c75116f0a6394547312eb0c33098cda85f96d1194a024782a02dd5630"
+                  },
+                  {
+                      "path":  "roxy-helper/config/openai_protocol.py",
+                      "bytes":  1838,
+                      "sha256":  "18fbcb60eb3ba19977323a9887f9b1cf8ea658340fbc542ec5f77720713ebbaa"
+                  },
+                  {
+                      "path":  "roxy-helper/config/proxy.py",
+                      "bytes":  7370,
+                      "sha256":  "7c06a6fd7e1059e54b928b740cc52e6b8252bb0f5f53d075573ac474974babcb"
+                  },
+                  {
+                      "path":  "roxy-helper/config/register.py",
+                      "bytes":  1383,
+                      "sha256":  "afca9b3c68533fdd3828bed73f8ee4313d12091b4b14460e1def97d77bdcbc50"
+                  },
+                  {
+                      "path":  "roxy-helper/config/roxybrowser.py",
+                      "bytes":  6486,
+                      "sha256":  "8b1c3af8e1fe6a930bfe696dcf9c978ad358b448f8e5a7ecdb6d94827bbb7b8d"
+                  },
+                  {
+                      "path":  "roxy-helper/config/twofa.py",
+                      "bytes":  561,
+                      "sha256":  "00fcc21de781554fd692ec1171211705007ed52df4c7cfdc7adb4569584c0224"
+                  },
+                  {
+                      "path":  "roxy-helper/config/__init__.py",
+                      "bytes":  10275,
+                      "sha256":  "aa7863f521c056653f8888406900d1a5058234ce2aebd47a83db1b65b2af23d4"
+                  },
+                  {
+                      "path":  "roxy-helper/core/account_export.py",
+                      "bytes":  24490,
+                      "sha256":  "f6531f193ad1bb0bf20d82c728c9b1aacbd50e8fd037d40d66c32f61689caa19"
+                  },
+                  {
+                      "path":  "roxy-helper/core/email_provider.py",
+                      "bytes":  9179,
+                      "sha256":  "81b0c91f9be11742ee85882056680afd537cba211b4875a7c514df76adb0d220"
+                  },
+                  {
+                      "path":  "roxy-helper/core/humanize.py",
+                      "bytes":  10514,
+                      "sha256":  "e341b987ebfd81c7e812faa8ede18db7815fa4848c889faa29fb5e1a8f73a117"
+                  },
+                  {
+                      "path":  "roxy-helper/core/proxy_provider.py",
+                      "bytes":  16554,
+                      "sha256":  "60e9bc5bc881d660d41143d1d97a1df07a1ba3f2629302b25334775c7700df8a"
+                  },
+                  {
+                      "path":  "roxy-helper/core/roxybrowser_client.py",
+                      "bytes":  36947,
+                      "sha256":  "370a169ad6fffb0ff8648df22a894d9b9f16ba758a014661e965098f4e289843"
+                  },
+                  {
+                      "path":  "roxy-helper/core/roxy_registration.py",
+                      "bytes":  124434,
+                      "sha256":  "cd3116f7989667149d4e706f1483ff03d797399378a2999184766317d1af81b9"
+                  },
+                  {
+                      "path":  "roxy-helper/core/session.py",
+                      "bytes":  30496,
+                      "sha256":  "a16df05070fcbdc4409203c159f524da0a3c2f790ac8ec5933ceea2be70147f8"
+                  },
+                  {
+                      "path":  "roxy-helper/core/__init__.py",
+                      "bytes":  24,
+                      "sha256":  "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed"
+                  },
+                  {
+                      "path":  "standalone_core/momo_extract.py",
+                      "bytes":  24295,
+                      "sha256":  "1f712c1734c8c88d16830760c6534703d272f87bf368976b243a8cc73ca2748f"
+                  },
+                  {
+                      "path":  "standalone_core/__init__.py",
+                      "bytes":  63,
+                      "sha256":  "1a547e7f272156fdffb28b49612fe1fdbf04c9d1cab9398c7c3d9da6c1643807"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/.gitignore",
+                      "bytes":  69,
+                      "sha256":  "138fdc05a25691696459529634ecddb06107da3d39ea176f5e1a6b1305acd7fa"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/accounts.example.json",
+                      "bytes":  196,
+                      "sha256":  "ccba3faac4efd9acb388254700ecc6352bc55abd1bfe7f7ed38da520e626a05d"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/LICENSE",
+                      "bytes":  1104,
+                      "sha256":  "e7140f243e355e53cb211388759a89cea58a76646eecb8cd60b8c8a3722e3504"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/pyproject.toml",
+                      "bytes":  616,
+                      "sha256":  "1e5f9f6e38c966d89d93759a95512125b57e14c562f74a1b1045ba39302c42b9"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/README.md",
+                      "bytes":  8693,
+                      "sha256":  "ebf4e4236ee8ec1dcb508af3e97813f23c606ec3a2576bd36b6eb93d08896449"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/requirements.txt",
+                      "bytes":  32,
+                      "sha256":  "19fb22e9c022773485bf1f0eedf1ea909779a3e512c9cc3def7c523b382682eb"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/tests/test_offline.py",
+                      "bytes":  3323,
+                      "sha256":  "fee827e07ca8b646f86f2a6d841aff3caf54f168b67a19c16b1da4e224e8126d"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/addresses.py",
+                      "bytes":  5113,
+                      "sha256":  "6b063b7a40b6c884eac2980249971cc338d53e3c4874a457e51b6bd03b8579c0"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/cli.py",
+                      "bytes":  7828,
+                      "sha256":  "21096cfafaadab02e88d149adf1a26041d78d92cb99da04c8eaf092cf16572a2"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/identity.py",
+                      "bytes":  2931,
+                      "sha256":  "6ef4627d5c8c72c244cf9fb663829fdedc502bc68678eb7368176e8020b071af"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/protocol.py",
+                      "bytes":  16997,
+                      "sha256":  "dd4f31fabeda4b2cdc0afc8967e7d8ba4f0c1f92a85c005b98675809b4f43d02"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/verify.py",
+                      "bytes":  4823,
+                      "sha256":  "8ecaebde4c2e4a8f1247569dfe374081d94ba10fcd59cfa190480dc73d6f99b2"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/__init__.py",
+                      "bytes":  406,
+                      "sha256":  "2ad6348a2b08175eaee09a2fa5032172981bf836e174b83832ce69665357883c"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/__main__.py",
+                      "bytes":  89,
+                      "sha256":  "c55b9ffe32067853cb73e4e3d7478a9187a192b69ab8b90b0620c45ae1158c0d"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/data/in_pincodes.json",
+                      "bytes":  60762,
+                      "sha256":  "64eec9d49f3b23c3695672de35b7099d0c69a86f7a718c7413689738a1f879f0"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/attestation.py",
+                      "bytes":  4141,
+                      "sha256":  "9912fed9672918d5073025169e8447508469982ed88a334f010e934419a4c8c2"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/http.py",
+                      "bytes":  3272,
+                      "sha256":  "b09fdcd2bfe01224c0b88cc5a1accedcf7eecb2d6ee2bbb2904dc30980807e33"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/oaics.py",
+                      "bytes":  15557,
+                      "sha256":  "47c2af7a822ba5101ab1a99aebf33763e327c0e30dd6b070d3dd7991bad6e218"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/openai_protocol.py",
+                      "bytes":  4914,
+                      "sha256":  "fe792b2bb291b79fa34dea6458a2c8c9f71dfbba1f724563a24e2d53def2916b"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/risk.py",
+                      "bytes":  6323,
+                      "sha256":  "21ab6871e1a57ed15429cb11b27b61dfc5c0d6195395fafce8ead04f844de9fd"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_token.py",
+                      "bytes":  8045,
+                      "sha256":  "d90b950de365bf2ac7d6c8212568977cf3a0f344c0c8952909958e2ad544539e"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/__init__.py",
+                      "bytes":  533,
+                      "sha256":  "0e82e104d5614992574db1ed0e01b060362eafb1adea3f91f14a7c80d01e0a72"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/package-lock.json",
+                      "bytes":  648,
+                      "sha256":  "248b7854b8e91aadb982a8d5121cc38d58fc023f04c6f4103e2679903969d57d"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/package.json",
+                      "bytes":  169,
+                      "sha256":  "a66db2dc531b508c481b6fee2f036c29ce4a505186fe4803af7a79b68cdf28fc"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/sentinel_bootstrap.js",
+                      "bytes":  28343,
+                      "sha256":  "c5265f4697bbed50774182a5079b7d70ec4f5fc252a0238976052d50271f1c68"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/sentinel_bridge.js",
+                      "bytes":  17748,
+                      "sha256":  "2e5ae07636e8cf2d3dada0486eb92d30f4d1f4db3846bcaced24ac170c23324c"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/sentinel_curl_fetch.py",
+                      "bytes":  907,
+                      "sha256":  "c21386a86a27c814860dc977d6ad9c8e4d8f73d7f81d8a0992a5b8ace6627976"
+                  },
+                  {
+                      "path":  "third_party/upi-zero-link/upi_zero_link/_vendor/sentinel_assets/sentinel_sdk.js",
+                      "bytes":  34663,
+                      "sha256":  "b61fedaaa18817f0546664b46a9855b82e54f0e29a4f522083ce8d579f89195c"
+                  },
+                  {
+                      "path":  "webui/app.py",
+                      "bytes":  96461,
+                      "sha256":  "d568accf5904fabfbd13962ac553990bd04a795f798ec7436b20ca62fd4f6744"
+                  },
+                  {
+                      "path":  "webui/asn_performance.py",
+                      "bytes":  7225,
+                      "sha256":  "3c914c1945e8b264762c07293dc349fd9c90bfc20b0bc78fb44eba8a52f1f476"
+                  },
+                  {
+                      "path":  "webui/auto_loop.py",
+                      "bytes":  36990,
+                      "sha256":  "032c27962ef3c5349bfe0b9b7e8b4425ce457c904188b5d7904cc58deda7057b"
+                  },
+                  {
+                      "path":  "webui/db.py",
+                      "bytes":  190673,
+                      "sha256":  "745b6b3a8c7c9b015f584627f6276c5a352039d80a0b10fd8027b55b1504e8bc"
+                  },
+                  {
+                      "path":  "webui/exporter.py",
+                      "bytes":  27956,
+                      "sha256":  "0ea880d4e33a1444b5fce652e3a7032e04ced0b2f9a8eab29a0c3f5655b4d47c"
+                  },
+                  {
+                      "path":  "webui/export_formats.py",
+                      "bytes":  4938,
+                      "sha256":  "0276faf453243da0f7342967dc3624b477eed4c642034f91f748c6d149d92a05"
+                  },
+                  {
+                      "path":  "webui/momo_api.py",
+                      "bytes":  17200,
+                      "sha256":  "36a49a06554c556dd1f9de70d7fefd1f71d760415eed7ae5a875ba1dcd7ee536"
+                  },
+                  {
+                      "path":  "webui/momo_checker.py",
+                      "bytes":  32296,
+                      "sha256":  "d41656f0c1f73916bc520fe92ed111dbf2b4adedc24896ee376f2f5781df5966"
+                  },
+                  {
+                      "path":  "webui/proxy_screening.py",
+                      "bytes":  25083,
+                      "sha256":  "63bf1868ae03da8e79ea204954e5df68fb14f55436fa128544828ea4f9ea9013"
+                  },
+                  {
+                      "path":  "webui/proxy_screening_api.py",
+                      "bytes":  2281,
+                      "sha256":  "50c912fb8f8fe170857de49fc2b1e329b84c595cd4180076892a3e42f42ce7ea"
+                  },
+                  {
+                      "path":  "webui/qualification_api.py",
+                      "bytes":  45416,
+                      "sha256":  "ac9ee072e0ec7a1700ccacc48429e6d7271e962d1f8730dda02c1af00b63ed80"
+                  },
+                  {
+                      "path":  "webui/qualification_status.py",
+                      "bytes":  2141,
+                      "sha256":  "e27869bb797508488f09313015f1f538d7967b9f8880d9e7cb89129614df4e80"
+                  },
+                  {
+                      "path":  "webui/qualification_store.py",
+                      "bytes":  6008,
+                      "sha256":  "e6e3a7f1326ac8213974848a76da3971eb6ca09efeb7fb5b3240d0d77cb258cc"
+                  },
+                  {
+                      "path":  "webui/rebind_mail_provider.py",
+                      "bytes":  4606,
+                      "sha256":  "0ddb9472d57ea347d3cd49e23b7ddcaab04ef47f6d6eac5ae04691d465456f90"
+                  },
+                  {
+                      "path":  "webui/rebind_service.py",
+                      "bytes":  115287,
+                      "sha256":  "ce83e66595c2ce98507559abb3702750bb42db664ab76465fa677c0b3580c304"
+                  },
+                  {
+                      "path":  "webui/refine_api.py",
+                      "bytes":  5114,
+                      "sha256":  "4508dc59e0dde70e04f56983f05ed7d5e99b1b12e045e1e549b0e7916c5f705d"
+                  },
+                  {
+                      "path":  "webui/refine_input.py",
+                      "bytes":  6287,
+                      "sha256":  "9bcb647718eb6767004b696cc042a94b14fdf2b7222322c714c489fedb748526"
+                  },
+                  {
+                      "path":  "webui/refine_ledger.py",
+                      "bytes":  17933,
+                      "sha256":  "b6fbef7f5e065e8c8df1737778a8d7df57d08f5cc19d06e2a135cb0df7a47ebc"
+                  },
+                  {
+                      "path":  "webui/refine_sentinel.cjs",
+                      "bytes":  2900,
+                      "sha256":  "9ff53b45cc22b9cd8a30639d65db2531cfdf9c0c62ebe35322bb641814f9bfcf"
+                  },
+                  {
+                      "path":  "webui/refine_sentinel_fetch.py",
+                      "bytes":  4372,
+                      "sha256":  "57edd8c5cf5b010be76b5a6c839d7695514c549f90db264955defa9a7d25acbf"
+                  },
+                  {
+                      "path":  "webui/refine_service.py",
+                      "bytes":  29681,
+                      "sha256":  "3d7367afe4d4f00a3b364de2b8dbdfeff5a56714437ddea4cc80f0e75aa94155"
+                  },
+                  {
+                      "path":  "webui/refine_upstream.py",
+                      "bytes":  21879,
+                      "sha256":  "1a8a66dd31670cd5fa429b3b2d4f8e1aa76722979ede4365352766028743d2be"
+                  },
+                  {
+                      "path":  "webui/registrar.py",
+                      "bytes":  196163,
+                      "sha256":  "036a962a41d68b15f85dc6b28768d20815b2dd03fa956136848eaa7081a65a5f"
+                  },
+                  {
+                      "path":  "webui/roxy_bridge.py",
+                      "bytes":  85665,
+                      "sha256":  "e9d82659f4fb918c256adf671c6e63614b335295d821e3578df1d956699819dd"
+                  },
+                  {
+                      "path":  "webui/roxy_config.py",
+                      "bytes":  4501,
+                      "sha256":  "a45ed1609fc0c9edee990d53994ae7260c3ac64fae2192f1dc6b204341c57064"
+                  },
+                  {
+                      "path":  "webui/roxy_proxy_sync.py",
+                      "bytes":  10684,
+                      "sha256":  "012d2c2e00765153904dd7bd3c6d989c683436e2ee3e762396078dedff80f48f"
+                  },
+                  {
+                      "path":  "webui/roxy_settings.py",
+                      "bytes":  8536,
+                      "sha256":  "3d8b120a95ba0da4303741fdb2b0bedb6543f2f71c4c2a3e9b1fa2b5b8877512"
+                  },
+                  {
+                      "path":  "webui/roxy_settings_api.py",
+                      "bytes":  5527,
+                      "sha256":  "e4cf342feb45a725dcfa0ca741f02931173329acddbf33e3c635b156519cfb0b"
+                  },
+                  {
+                      "path":  "webui/roxy_status.py",
+                      "bytes":  3595,
+                      "sha256":  "0bcefb4838ccf88f37d7479ea2a8a635bd385a7e2c06d58da9ad5e4cd07a2a5f"
+                  },
+                  {
+                      "path":  "webui/roxy_worker.py",
+                      "bytes":  169877,
+                      "sha256":  "99286d9c7eee377f86bf5e3b3ed48534070e21da4ea8b15abbccb5927d3f5ce3"
+                  },
+                  {
+                      "path":  "webui/two_factor.py",
+                      "bytes":  20818,
+                      "sha256":  "6e0e8c8218f4b25830527f67034fb581e037a74e58a4802b92c02604523aa433"
+                  },
+                  {
+                      "path":  "webui/__init__.py",
+                      "bytes":  29,
+                      "sha256":  "54af68518e53103aabbd1671315b7ea2078e10ffab4dd3523b29676d7fae6de3"
+                  },
+                  {
+                      "path":  "webui/frontend/index.html",
+                      "bytes":  504,
+                      "sha256":  "722f742dbbc929cd597841924a4a28979f8253f0d173ee50648c5cbad5281399"
+                  },
+                  {
+                      "path":  "webui/frontend/package-lock.json",
+                      "bytes":  84226,
+                      "sha256":  "85d5d7ddc0b165a295f7f4a0a9d8b92ad8c504a46c32bc36728fb1f7e4b4c500"
+                  },
+                  {
+                      "path":  "webui/frontend/package.json",
+                      "bytes":  841,
+                      "sha256":  "aaed3fa4fe8ef171398d7fffed0517012187bf1f119d9bdfec5c817711423c00"
+                  },
+                  {
+                      "path":  "webui/frontend/pnpm-workspace.yaml",
+                      "bytes":  88,
+                      "sha256":  "9cedd10fec96606dca2f923436ce9b5828dd09377efbb95d5e3a6f5772f6a6e1"
+                  },
+                  {
+                      "path":  "webui/frontend/vite.config.js",
+                      "bytes":  1302,
+                      "sha256":  "11a1fe84edcaf751fb388125baacc4f06e87b01809c3b182c91fc83c0d38f870"
+                  },
+                  {
+                      "path":  "webui/frontend/src/accountMode.js",
+                      "bytes":  1085,
+                      "sha256":  "3abdadb2d51840a6873f87a0004277efad9b5a3517e703dabe7c4fa863510dd6"
+                  },
+                  {
+                      "path":  "webui/frontend/src/App.vue",
+                      "bytes":  1517,
+                      "sha256":  "cccb675697b503ad61555bb0ba662b50c8fcde1e84ffbf6e55a9c68f9c6d5213"
+                  },
+                  {
+                      "path":  "webui/frontend/src/autoLoopPolicy.js",
+                      "bytes":  687,
+                      "sha256":  "6353f10bacf4180d789494eeebd58cf44107ea5a169fa3fb48e68f3af563c93f"
+                  },
+                  {
+                      "path":  "webui/frontend/src/coalescedAsync.js",
+                      "bytes":  566,
+                      "sha256":  "56b9f74a0db9e73f9e9cf33e8f8094c975009d22344e327560bd44639ff5dfc1"
+                  },
+                  {
+                      "path":  "webui/frontend/src/main.js",
+                      "bytes":  1372,
+                      "sha256":  "0957bf06e8e7feec5c990e97e6300ac0a008c712f095b8bed256dc98d2ccfef2"
+                  },
+                  {
+                      "path":  "webui/frontend/src/passwordResetTask.js",
+                      "bytes":  7870,
+                      "sha256":  "f7ef1f220a6cc0e3d134e19093ecda8061c1602fe8fc58ef363bb4db3687b9d1"
+                  },
+                  {
+                      "path":  "webui/frontend/src/qualificationBatch.js",
+                      "bytes":  5990,
+                      "sha256":  "bc0354b159f696179a26b4cad6b1ee75f82f251a0fd45a88d1de3f6539e0b781"
+                  },
+                  {
+                      "path":  "webui/frontend/src/qualificationProxyConfig.js",
+                      "bytes":  2997,
+                      "sha256":  "95b62eb6036a39b267f2b825be9749da7f9b495c470cb82ef11b20c7696791f0"
+                  },
+                  {
+                      "path":  "webui/frontend/src/rebindConfig.js",
+                      "bytes":  1090,
+                      "sha256":  "27c512b74905d2d33af395f2ee2203ed32b17e2f57a3dce5b8408312524ce09d"
+                  },
+                  {
+                      "path":  "webui/frontend/src/rebindResults.js",
+                      "bytes":  1077,
+                      "sha256":  "03c8183abea685440c963846266aa83d63e7096a386246cc088d6cf4b32abcd0"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredExport.js",
+                      "bytes":  324,
+                      "sha256":  "ac8672c99b46596b5598b6ca827faa00331e46e74f1b6823acea240a6666782c"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredPasswordReset.js",
+                      "bytes":  2601,
+                      "sha256":  "61afffb5e5706e14d82c4db054b5a6686af1dc4c9fb87d5fa2fd39b2c19f361a"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredPlusStatus.js",
+                      "bytes":  1514,
+                      "sha256":  "868097ba1bbb6a9cfb1d3be70f8d4b42b379ef72e5e0191c05af190d9e6b84c5"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredReauthorize.js",
+                      "bytes":  11099,
+                      "sha256":  "73a809619e5387529228d8545939ef88da5938f0c52eb999935d4e0d4dac50e3"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredRefreshToken.js",
+                      "bytes":  2883,
+                      "sha256":  "a310e4874280598996e3e380eeb0ef570f7025479f69b7bc0189527db7b75bb2"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredSearch.js",
+                      "bytes":  4498,
+                      "sha256":  "dadab7277b9ffb17a75862d1bebba7c57f4aa0873e9b44490d588fd4f26e02de"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registeredStatusCheck.js",
+                      "bytes":  1875,
+                      "sha256":  "d3bbe5c64625f90a483ec9fc52fd07db2a5fc6eecd08fe36661d3e7f8b71877f"
+                  },
+                  {
+                      "path":  "webui/frontend/src/registrationContract.js",
+                      "bytes":  1471,
+                      "sha256":  "00a7f01b60eb57b38d7b0cfd163be64b72c2e6fe2ab98522350af16e616e4bae"
+                  },
+                  {
+                      "path":  "webui/frontend/src/roxyConnection.js",
+                      "bytes":  2523,
+                      "sha256":  "af66617d0df2200f7fcb880808dc4b2a0496ddf6704cd120a34d65aeddc20027"
+                  },
+                  {
+                      "path":  "webui/frontend/src/roxyProxySync.js",
+                      "bytes":  771,
+                      "sha256":  "12233ff56ee3be4a17c7c630d4048bfaae49e8f13c3db84fe8de21aeb8276a5a"
+                  },
+                  {
+                      "path":  "webui/frontend/src/roxySettings.js",
+                      "bytes":  4897,
+                      "sha256":  "b72ed1c976b563b1e2feb968ba46c314b3ecf59aee1b75edf4f441b62841746d"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/accounts.js",
+                      "bytes":  1280,
+                      "sha256":  "97eb9519ca390ddafc71018c02271ff56b9c9c991c9fe85b75d03aa16ec745f7"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/momo.js",
+                      "bytes":  258,
+                      "sha256":  "1ac9fc769853033999c4b37813b1224d567aff37069ea9d31747e3cef8eb001e"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/proxy.js",
+                      "bytes":  499,
+                      "sha256":  "72732fad646c91fe3cd862bb2e73087fb6e883ad38262590437a25bbdd9c67bc"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/qualification.js",
+                      "bytes":  1574,
+                      "sha256":  "94ccfc8415d74cfd4e7f12274f973dce8433bd400a2be22e5974f9e7d0411cf7"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/rebind.js",
+                      "bytes":  1481,
+                      "sha256":  "a8f47a2fb6abab7b056496424e17a9a3fd0fbf5eafcc0be36af87f8a49e961d2"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/refine.js",
+                      "bytes":  1366,
+                      "sha256":  "e8bdafc9e9470ce0c706d3bd5804da7cd5bd821829fd3d1be6e15bbf9e8f7f87"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/register.js",
+                      "bytes":  4116,
+                      "sha256":  "8d668ec216a23e6d9bffcdbcd0eef1541326e265063fe302cf081cc4494b85a4"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/request.js",
+                      "bytes":  3509,
+                      "sha256":  "a86c3d9a24e4f842de31570dde76d229b9160bab45a867918d4ba72b613f069a"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/roxy.js",
+                      "bytes":  443,
+                      "sha256":  "5291076c8fa7c1eddbfaec9d6b58c74350111512496bf353709c926ff4071eca"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/settings.js",
+                      "bytes":  1601,
+                      "sha256":  "807b19450efe3194ebe06190055364ede94f2145d3e8a05849a8f34bece7b144"
+                  },
+                  {
+                      "path":  "webui/frontend/src/api/timeouts.js",
+                      "bytes":  838,
+                      "sha256":  "cb3bd47bb02701a3515d87480f3e7349ff26a030c5757d1bb5a7b80025ef8946"
+                  },
+                  {
+                      "path":  "webui/frontend/src/assets/refine-upi.svg",
+                      "bytes":  478,
+                      "sha256":  "c23d598e0096583aafa2c03b30e95f28bd268071d87c5da9e3100745a98555e8"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/AccountSelector.vue",
+                      "bytes":  1346,
+                      "sha256":  "d163a2a75c7fc3438160738dfe9581eaf3935c2f93e729fa61e22d2651abcf22"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/FooterToolbar.vue",
+                      "bytes":  828,
+                      "sha256":  "d4287ba3cf04eefc4651fb6733ccc73d270b60d550a897dcb8db5c7107801913"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/LogPanel.vue",
+                      "bytes":  1306,
+                      "sha256":  "8905886ac6f3a04fb0c09441b938815a6a2d13999fcee5f4b2bafa5ab0d1319f"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/RegisteredQualification.vue",
+                      "bytes":  14164,
+                      "sha256":  "34589fe181b76aa244a5313036e0ed54efd2b2f6e948a8f8b3743fbad3dcc01e"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/RoxyConnectionStatus.vue",
+                      "bytes":  2962,
+                      "sha256":  "01957fba821f7c2c946580096e3e91022f21b023d08698e1734f3b71346803b2"
+                  },
+                  {
+                      "path":  "webui/frontend/src/components/StatusDot.vue",
+                      "bytes":  770,
+                      "sha256":  "9155e01ded04d9ba4111c6a466116442977ccb0efc3cc030df06494288b465a4"
+                  },
+                  {
+                      "path":  "webui/frontend/src/features/asnPolicy.js",
+                      "bytes":  719,
+                      "sha256":  "c249a30bf9f22f4c5656722b27593f0abffd4b486c56fbb49a89cb819fc22f99"
+                  },
+                  {
+                      "path":  "webui/frontend/src/features/momoAccountTable.js",
+                      "bytes":  1333,
+                      "sha256":  "e5f2fa7eac771f6ca3d4b9ad16e0fcf067486b897ade1e47734d66d478addfe9"
+                  },
+                  {
+                      "path":  "webui/frontend/src/features/momoDiagnostics.js",
+                      "bytes":  1137,
+                      "sha256":  "503f9d7e26868f9881c7833bcb7c7d16b0dac3b5afc15511d0348783b53d2c07"
+                  },
+                  {
+                      "path":  "webui/frontend/src/features/momoPayload.js",
+                      "bytes":  1595,
+                      "sha256":  "5e7e89fd1f74f2562d473736e0cc14e790d9ee6f42501e1c88cea1efc9ba464d"
+                  },
+                  {
+                      "path":  "webui/frontend/src/features/refine.js",
+                      "bytes":  24475,
+                      "sha256":  "6b0105e68ec6996504a91be76156a922eac003a84b2b63903cceb1ee6bb5bddf"
+                  },
+                  {
+                      "path":  "webui/frontend/src/layouts/AdminLayout.vue",
+                      "bytes":  10277,
+                      "sha256":  "5f299ec46cbbf872360e753a39b7f4b43f581e464dc04ba9b304501a54f470bb"
+                  },
+                  {
+                      "path":  "webui/frontend/src/router/index.js",
+                      "bytes":  3806,
+                      "sha256":  "892887d2bef5e36e9ef6cade4ddd35bd8792d43395be0ff41bf3ec549cbe5e11"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/form.js",
+                      "bytes":  2597,
+                      "sha256":  "0f805ec2a1ecf825461ed2ff62c2912c169b88faee04feafbe2936b4ac996cb1"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/passwordReset.js",
+                      "bytes":  2851,
+                      "sha256":  "d357d6a33dcb1bf844503d17c445045388b4fc2fbe80b7fb1f353c6ecabacb8e"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/proxy.js",
+                      "bytes":  6715,
+                      "sha256":  "c50067bb2ac4f288d39b88602fcde91f0bae9fcfea39f5cab896a2fc744ccad8"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/rebind.js",
+                      "bytes":  1326,
+                      "sha256":  "3d5632703660c3475cc98f34959c72c0de2f0c96e9d9d63761bd907866abf388"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/runtime.js",
+                      "bytes":  6991,
+                      "sha256":  "ed7185e4bc6b348cc219a2260a2f81c77d7b1fa77f6d7d1ebfc566e30ca3240b"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/stats.js",
+                      "bytes":  907,
+                      "sha256":  "73f4487e42beb04681ae529105af6a19a9704fccf22ec49ff60ac81b8606a679"
+                  },
+                  {
+                      "path":  "webui/frontend/src/stores/theme.js",
+                      "bytes":  666,
+                      "sha256":  "e7dc8c215c12cb5a6914e8ff8cbd9ab1fef356447f4a902ec4311dd45feacdd9"
+                  },
+                  {
+                      "path":  "webui/frontend/src/styles/theme.css",
+                      "bytes":  4967,
+                      "sha256":  "78d1b85247499d926b77b7ae4bef477ef6197927192892754eb719485dc4f890"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/AutoLoop.vue",
+                      "bytes":  8073,
+                      "sha256":  "1e55c5666e762838bf2e9a424849deffb9559db18379ca4206428195d058422d"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Dashboard.vue",
+                      "bytes":  3661,
+                      "sha256":  "dcdb8c2ba1c59904594741203fa1dc35e4ecbb1967996b18b28536425484d2da"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/ExportConfig.vue",
+                      "bytes":  5320,
+                      "sha256":  "489aa93b2469bf7a39db6d4c37132b0cdf92325dad4c441818f15d70f27ab408"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Import.vue",
+                      "bytes":  5223,
+                      "sha256":  "d6edc5031e998d5a38c2b14be99862d57494557113d46ea31be6a2b36d54ada1"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/MailConfig.vue",
+                      "bytes":  6376,
+                      "sha256":  "c19e10194785952959cb776d224bf18bebff37cc291dd64f6a89126bde9c40fd"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/MomoCheck.vue",
+                      "bytes":  36852,
+                      "sha256":  "8500947194fb0d6ee8521cf62ebb18ecd72e3bb4cd13f0b1030c4a21f4f4c396"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/PasswordReset.vue",
+                      "bytes":  11941,
+                      "sha256":  "bea90fd75edbf9d729e4da3a5658aed89ce49252a879ad98daac4e793cecb9a7"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Pool.vue",
+                      "bytes":  9316,
+                      "sha256":  "f387d582a9b28cf2ef9bf331e242f5bb545f79ab7ed1c81d5a5571e64e3a263f"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/ProxyPool.vue",
+                      "bytes":  15750,
+                      "sha256":  "2d877e5788e0f3185a494e62bf7ec2a423eda13ce606a1e08643c172a903bbdd"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/RebindPool.vue",
+                      "bytes":  9940,
+                      "sha256":  "68dce5c28c68785304c3196fae2630eec640687ba906a8a8d1184b053f773cd5"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/RebindResults.vue",
+                      "bytes":  62676,
+                      "sha256":  "d0bab6821da8e26c3d08526df2498261c558a10a8081170c24b9c690640115c0"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Refine.vue",
+                      "bytes":  45258,
+                      "sha256":  "6665b301e2d4a25737f525458a8fd47426b3e2c4e795d3bd20233314fc51204e"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Register.vue",
+                      "bytes":  12442,
+                      "sha256":  "3b34b7fdf33af8d022dae4c3bcf0fd0a235350367979d50832b3495b02b2ded0"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Registered.vue",
+                      "bytes":  77108,
+                      "sha256":  "f5f44adadbd4bf15d32d551e88eb4511c0ca30e00674c208ab9b360227b0d315"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/RoxyConfig.vue",
+                      "bytes":  12014,
+                      "sha256":  "90e516db6d745bf5ee75b43eca645b61a1a99c654c011944a7e157b94be1814f"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/Runs.vue",
+                      "bytes":  2421,
+                      "sha256":  "315e44477f074815234b78821bf5e364256cfff86b426f1d557a1e5d4d83f094"
+                  },
+                  {
+                      "path":  "webui/frontend/src/views/SmsConfig.vue",
+                      "bytes":  8870,
+                      "sha256":  "cc3167e99d6406485659085747181caa2e49e3d7e2990319ace256ea8955555a"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/account-mode.test.js",
+                      "bytes":  1128,
+                      "sha256":  "c01ce050ec0dc16255eef1197674936b7507847927053a84e918a08003f3bcd3"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/asn-policy.test.mjs",
+                      "bytes":  1030,
+                      "sha256":  "89f65ac0c01aedcb92765a0f2a2f7a22374892b6ff0194a3d5808bac09b4b526"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/auto-loop-policy.test.js",
+                      "bytes":  1008,
+                      "sha256":  "65e7d5a650719bd19a2785325a400e35252ab11ba92f974ace85cb4518a3fa66"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/coalesced-async.test.js",
+                      "bytes":  2549,
+                      "sha256":  "f7de62af44e476a60f60d5fb4fd2425beb5ac35e6eeecbfe1fa61b8b92f71aa9"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/momoAccountTable.test.mjs",
+                      "bytes":  2258,
+                      "sha256":  "a6b11cb9748de5fc665c42e172e075e5512816278732326ae0ec1f9619a4a0d2"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/momoDiagnostics.test.mjs",
+                      "bytes":  1025,
+                      "sha256":  "829753f5775e7e31d96bb2e69ec681b4c4ed702a63f814f1b22f9094a0adea85"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/momoRoute.test.mjs",
+                      "bytes":  846,
+                      "sha256":  "0582c389a72271d847b80f095d9270a2334cafec8ae08e09dd9a96e1fc77a472"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/plus-check-timeout.test.js",
+                      "bytes":  262,
+                      "sha256":  "d3e2b54c10393284b8e62b26161f279a87d2272c411c2b217b5c5b2140a595c4"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/proxy-screening-removed.test.mjs",
+                      "bytes":  974,
+                      "sha256":  "29883878ed838f1e067cf0022afe622f37cd632e9521ed21ae95dfdbc4a8d8a0"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/qualification-page.test.mjs",
+                      "bytes":  5417,
+                      "sha256":  "e559dbd05727c3232fe94762b9bd47e642d79c2cf92f6ef89b295e2aa42be257"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/rebind-results.test.js",
+                      "bytes":  18672,
+                      "sha256":  "09ccb011e2e7f9729b43a478f62b496c95cae5697cca85d84d5aa90a3cf2b76d"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-export.test.js",
+                      "bytes":  1536,
+                      "sha256":  "de9c3ec3f8c798ba6241a16cf5dfb3fc84aeb5dafe4caaec75d370a0cf8004fc"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-password-reset.test.js",
+                      "bytes":  2583,
+                      "sha256":  "1edc12463bbc321a44983ba5d1b629d807014dbec520a241881e6004a9598e04"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-qualification-filter.test.js",
+                      "bytes":  1569,
+                      "sha256":  "b638e21c3f69a8b34d81931550c2dc9c35f2be6be91be5f4db433ac5703f7eb5"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-refresh-token.test.js",
+                      "bytes":  3385,
+                      "sha256":  "e354fa171913f5325726de5629b98d22a684243a235e04ef717f649d8b80ab49"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-search.test.js",
+                      "bytes":  12461,
+                      "sha256":  "029f056913b325a1e1000be8e3503d382e9ef11eb61f55d5567e440119c9c8b7"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registered-status-check.test.js",
+                      "bytes":  2558,
+                      "sha256":  "f1b3632e929a477b2e3a3650af45c64f89811faaf4530ab06448f26dc2d99486"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registration-contract.test.js",
+                      "bytes":  1702,
+                      "sha256":  "2b8885045648dddcbcc32e5b49158643a45bb143ca4f1f5a65310bdfc3db6e2c"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registration-outcome.test.js",
+                      "bytes":  7620,
+                      "sha256":  "bee8e47f3834ec59a2e327aa74da18737359e84524d2bae6fc1792991eecd09f"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/registration-startup.test.mjs",
+                      "bytes":  4861,
+                      "sha256":  "7d6e0c5a9f31ecb1c138dc57a0cfa6a1d507f618eef5be80f4892d11e9f545bc"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/roxy-proxy-sync.test.mjs",
+                      "bytes":  1931,
+                      "sha256":  "92eefa4b5c31d0a50503327b36fff82c7fa15443c8fdda362d5ef80c62bb09a3"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/runtime-sse-safety.test.js",
+                      "bytes":  1036,
+                      "sha256":  "f2b6de19ff3902fc12bafa776cf42fed692a54179fb505c3a28d1ce59cafd871"
+                  },
+                  {
+                      "path":  "webui/frontend/tests/ui-performance.test.js",
+                      "bytes":  1024,
+                      "sha256":  "20cdbb37cd37beded853674816f20bb1fd6be0668bc6286d51ae6d3a8a06c149"
+                  },
+                  {
+                      "path":  "webui/static/index.html",
+                      "bytes":  615,
+                      "sha256":  "7970295efe606b75a55942a0ec4da18ad944ce70db2a920554d2f3adc9f2cfa7"
+                  },
+                  {
+                      "path":  "webui/static/assets/AutoLoop-CHJANXeX.js",
+                      "bytes":  7254,
+                      "sha256":  "cfa26dff7973685d0ddb20e2277f07881c4f5ebdc6b508428c56a2fbb00eb4c5"
+                  },
+                  {
+                      "path":  "webui/static/assets/Dashboard-DYviqTU9.js",
+                      "bytes":  3518,
+                      "sha256":  "06e1e7fa14464d5272c1f2d447c9ed0ef60426f242b4a47dc1eafb1df9856e63"
+                  },
+                  {
+                      "path":  "webui/static/assets/directive-BFadESqV.js",
+                      "bytes":  4716,
+                      "sha256":  "d507bb304d826ce6514be140f1f87bf06ca59675a2b62877d958df882176f9ae"
+                  },
+                  {
+                      "path":  "webui/static/assets/ExportConfig-DUhmXA9W.js",
+                      "bytes":  5534,
+                      "sha256":  "0a8836e1a83f3f02563128b9ab873348327bc44461d96ba0d2291ba37001684c"
+                  },
+                  {
+                      "path":  "webui/static/assets/FooterToolbar-B6QZzJ3F.js",
+                      "bytes":  362,
+                      "sha256":  "15161ed4bb0deb43a2fb85c44082c50bef85852697b23969799dc1a29ab3636f"
+                  },
+                  {
+                      "path":  "webui/static/assets/FooterToolbar-CpbiVAme.css",
+                      "bytes":  462,
+                      "sha256":  "971eb015aa4c8a64837626bdc642509fd244b81864d9a6f7456ffb892741b1d9"
+                  },
+                  {
+                      "path":  "webui/static/assets/form-BTG_G2mA.js",
+                      "bytes":  1878,
+                      "sha256":  "6b3a9c33ea82b0bc780faaa376d69cd8ca3e372a5c7730b38623310c47a0bcce"
+                  },
+                  {
+                      "path":  "webui/static/assets/Import-DGLL7oVw.css",
+                      "bytes":  110,
+                      "sha256":  "b7b5ab8acd3c4684fc0ef44256e6be7908187840fb621e16567bb1a741dd3969"
+                  },
+                  {
+                      "path":  "webui/static/assets/Import-_0EpQz-E.js",
+                      "bytes":  3731,
+                      "sha256":  "94937d425d5f2a782dbef01f525406623e9732a5cd69fc743e4289fb831fa522"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-2NJsVaf0.js",
+                      "bytes":  4719,
+                      "sha256":  "245fb9fcc8bd3ac32453a0f7728aabbf1b99e3f28da06d3b5e030d9cb8ec10bb"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-BbqfPmkI.js",
+                      "bytes":  5066,
+                      "sha256":  "5c17a0dfcdbc332ec3738b0a1b289cc340076b2b2726c5ef509d2713580b3252"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-Bd0ahhKG.js",
+                      "bytes":  5395,
+                      "sha256":  "5b3fe2a500cb71d2c86fcb16d65f14c361449603e2fbd79c3382b9f804df27bc"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-BjMvlpV_.js",
+                      "bytes":  27619,
+                      "sha256":  "cf1e3da4c8acbcc9f8fbd0d5dd65e4cfb6991ef0f00bc2a49b79a8652b9ebc07"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-BkuM2sqS.js",
+                      "bytes":  2456,
+                      "sha256":  "5edb622bcb83beacddf64b85f96d46ce2e3bbb6d0f301c6346613e4af4582eb0"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-BpVz7HTk.js",
+                      "bytes":  4428,
+                      "sha256":  "4a2c6be5c2f6099ab621df8d8df833a1f22ddb2e002106e682b953c04e959a58"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-C9qyJmar.js",
+                      "bytes":  1737,
+                      "sha256":  "e94ff1a106fbd43fdf5eeacc9c1fa56d7dec90f0b51662210cbd7eb3975764e4"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-ChAOo9AT.js",
+                      "bytes":  2049,
+                      "sha256":  "ee21597180924fcd59c530f4fcb75e77a6d4432689da13102ed6c89117ab0503"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-ChU9Dhrl.js",
+                      "bytes":  779,
+                      "sha256":  "ee70bf4702cbc479c985de0550d84b59dfa7c84e1dc291142dcf9aa993cfe25f"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-CoG7bDAi.js",
+                      "bytes":  7828,
+                      "sha256":  "01ba183ed79564570759364084885008aac01e19dbb9be606db59a407d21acb4"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-CqGenzrf.js",
+                      "bytes":  9510,
+                      "sha256":  "9eb994097b0e323afb9c7349b16a1dc600e95dfae4b656366cd2e8e2656d36d8"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-CXkC8MW0.js",
+                      "bytes":  14682,
+                      "sha256":  "c19a21e1554d0e2de97f9eae439a5783898649d0c849bd48c035823d1cd86e70"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-DC18nRKl.js",
+                      "bytes":  1073,
+                      "sha256":  "ecf811891fe7f7b3253a8af0aa859a7cffab47ffc7ea62f8b94d1862d2c9e98c"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-Dh0DEi3g.js",
+                      "bytes":  3219,
+                      "sha256":  "1f2179541e60b91dfb43ead85918b6aa6aaa4e4e7f6e08ea5bc48ac6271bdf27"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-DS6CtET8.js",
+                      "bytes":  81401,
+                      "sha256":  "73e7d2d6e42a8178968845ff69167ae7856d4509fdb9e7b495162574c951ecad"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-DYc7IaLI.js",
+                      "bytes":  427675,
+                      "sha256":  "3554838ee9f94162daae5696bf5ea1c49433d24f5176347c848d2122e2475c3c"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-kD1HUOqF.js",
+                      "bytes":  12766,
+                      "sha256":  "5b4586734d6a7be43df70ca9f43dad41fed0fcebed5326a2a1621c56e997bc0b"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-TbCwbZzX.css",
+                      "bytes":  368841,
+                      "sha256":  "cad87c7a85b50269d4b4b3f1f5de8aeaa91e2a3114c9477554447eedc59d485f"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-uY_z5HK7.js",
+                      "bytes":  4359,
+                      "sha256":  "ef435bbaa5b8ad8710e0989cd23a81d5cc81c7da9212e75be6b57e8bdf7121b9"
+                  },
+                  {
+                      "path":  "webui/static/assets/index-WdO_jI9h.js",
+                      "bytes":  11686,
+                      "sha256":  "5174adbfc4783758de3080fdeaac4e255f197ecdedeb6f41ccfac6e0389e63a8"
+                  },
+                  {
+                      "path":  "webui/static/assets/LogPanel-bxEB3wVF.js",
+                      "bytes":  1062,
+                      "sha256":  "cbe252fe5bc5e8f27b19ffaa75039c422c1d9fe69f18ebfd7d121b3b3f555957"
+                  },
+                  {
+                      "path":  "webui/static/assets/LogPanel-XT7Kqnpz.css",
+                      "bytes":  108,
+                      "sha256":  "6294df24190b6e74deb50711b3e906e4db040e820e40f4c36446d3ec2c2eb88a"
+                  },
+                  {
+                      "path":  "webui/static/assets/MailConfig-Bka1JXeC.js",
+                      "bytes":  4710,
+                      "sha256":  "5e1c2760d419119b0152829204980918cc524216390a02ecfa83f5ce6f4b3ebb"
+                  },
+                  {
+                      "path":  "webui/static/assets/MailConfig-DX1Pmf4U.css",
+                      "bytes":  60,
+                      "sha256":  "63f0b7da759b1e3eb498bfd9a9765f39b926231dfaa1addfbe8518392a45dcd2"
+                  },
+                  {
+                      "path":  "webui/static/assets/MomoCheck-nvMU8cre.js",
+                      "bytes":  24639,
+                      "sha256":  "2d7d7204d1e67d0cde6e0bcb42b0f243eaed4231030bbab35b6823788a8d2b06"
+                  },
+                  {
+                      "path":  "webui/static/assets/MomoCheck-V5Vgz_or.css",
+                      "bytes":  5562,
+                      "sha256":  "2ac2badd4cc778344af1e95ebfb78cf7e37e74b41f87cc0367b3ae7807668147"
+                  },
+                  {
+                      "path":  "webui/static/assets/omit-Ss9ZiHkX.js",
+                      "bytes":  927,
+                      "sha256":  "8df06d2d84915671130b58a3747776116750915dc00a8262626187cf3faf2093"
+                  },
+                  {
+                      "path":  "webui/static/assets/PasswordReset-B7R6u6jQ.css",
+                      "bytes":  1907,
+                      "sha256":  "722b74583042531ff9aa0d494705c50a7f3288474e7f7ef0aaf6a335b62514aa"
+                  },
+                  {
+                      "path":  "webui/static/assets/PasswordReset-Y0mNFieG.js",
+                      "bytes":  9726,
+                      "sha256":  "12d26fcadfbf4d17b3997855e67c965f53ccab3379ccdc8cd21fe025107f2b96"
+                  },
+                  {
+                      "path":  "webui/static/assets/passwordReset-Z-ZEz-D2.js",
+                      "bytes":  7944,
+                      "sha256":  "1763fafdc301cd3c3888150a879d4305c276c5d0361e76c5a3a3f338826567f0"
+                  },
+                  {
+                      "path":  "webui/static/assets/Pool-Dl4EudFk.js",
+                      "bytes":  7415,
+                      "sha256":  "92ee7bb6adad9094e4654ef32650cb39f2520dc8bf59e2c082c3f4e1c7dd9cb9"
+                  },
+                  {
+                      "path":  "webui/static/assets/proxy-BVvRr0XY.js",
+                      "bytes":  243,
+                      "sha256":  "529ecc83bc300b494133a40b13d3b6e43056f964f3d93753e903ac0ce7e14f5e"
+                  },
+                  {
+                      "path":  "webui/static/assets/proxy-D2BJaDWt.js",
+                      "bytes":  5115,
+                      "sha256":  "20608fa9ba93378338fdeffa690c2363878afc7acb8a10974418cf853ae0156e"
+                  },
+                  {
+                      "path":  "webui/static/assets/ProxyPool-B0VFbu5i.js",
+                      "bytes":  13678,
+                      "sha256":  "1e4cd9c6d83b370d77614aea9cf2dfaaa961eab151342c429fe40c1fbf8e523d"
+                  },
+                  {
+                      "path":  "webui/static/assets/ProxyPool-DjCXre0l.css",
+                      "bytes":  671,
+                      "sha256":  "9ae43909f57a93d18f5b676a594799d0cfa3e20969d004d044e0aa6d37a0a745"
+                  },
+                  {
+                      "path":  "webui/static/assets/qualificationBatch-D8W_h6EN.js",
+                      "bytes":  4745,
+                      "sha256":  "cf9e2483e3d900f8274e2f1647d0a9c40dc6cb4a37e5c31e0179ded426503f32"
+                  },
+                  {
+                      "path":  "webui/static/assets/rebind-C4ypHuB_.js",
+                      "bytes":  908,
+                      "sha256":  "d2a66615afa89e42aed4a27281b9cb0333194857c4d28ecac3041218f9a3537b"
+                  },
+                  {
+                      "path":  "webui/static/assets/rebind-DDfrZ3Ju.js",
+                      "bytes":  973,
+                      "sha256":  "44a496d61b44f1669fb84976bb3022bbefa7c3ceecdd30442c034fb01c51e7a7"
+                  },
+                  {
+                      "path":  "webui/static/assets/RebindPool-DIb3TAMP.js",
+                      "bytes":  8070,
+                      "sha256":  "7cacf69e65445d3c9eb42923f436cf018feef6195b6a6e692a4f365fa531c10b"
+                  },
+                  {
+                      "path":  "webui/static/assets/RebindPool-DPzAjORr.css",
+                      "bytes":  722,
+                      "sha256":  "efee2c8ff2a0cae8db4ab92e81783dbb3b95589b8c983a554250cf786fdafadc"
+                  },
+                  {
+                      "path":  "webui/static/assets/RebindResults-CQWzLzj7.css",
+                      "bytes":  1672,
+                      "sha256":  "9120ae56b1243bbb127fcf119ff90985425a85fb2cd41ef967a9f8c4ad45d60c"
+                  },
+                  {
+                      "path":  "webui/static/assets/RebindResults-DHho2AGn.js",
+                      "bytes":  42146,
+                      "sha256":  "ab924df66fb7f5ed29c8a6b4c9d3983dc0377b9561b35c4e48201117619a781d"
+                  },
+                  {
+                      "path":  "webui/static/assets/Refine-D2ybqaAs.css",
+                      "bytes":  12644,
+                      "sha256":  "53865642fc9c590a9dadb2f70334163f24c8f9c8aa2e137a513d0a161726a85a"
+                  },
+                  {
+                      "path":  "webui/static/assets/Refine-Yf75TcJ8.js",
+                      "bytes":  44179,
+                      "sha256":  "2361ddcfcd9de1e60614c5b79f5d21adf9578272cae40eea5fb9847ac38187cc"
+                  },
+                  {
+                      "path":  "webui/static/assets/Register-w_QOc89X.js",
+                      "bytes":  9841,
+                      "sha256":  "fb103363d9f73768123d1696daadea0a22f3adf1727040058b322520df9facc5"
+                  },
+                  {
+                      "path":  "webui/static/assets/Registered-B1fQmyog.js",
+                      "bytes":  60128,
+                      "sha256":  "042d4947193aafd1a3446a0c2f3cf374659ef25e362c1e1fb3a9aa1a9cbbc3fa"
+                  },
+                  {
+                      "path":  "webui/static/assets/Registered-WEpO4xdU.css",
+                      "bytes":  2076,
+                      "sha256":  "385841b34cf33aed6e7fe1b4d410277ffca9b31421209053878e8bcf262bcb7d"
+                  },
+                  {
+                      "path":  "webui/static/assets/registeredRefreshToken-DeP7QVxU.js",
+                      "bytes":  13422,
+                      "sha256":  "41e91f8489b0451e836fd9ec27c538910069283bbc4df7a09313639e4f036adf"
+                  },
+                  {
+                      "path":  "webui/static/assets/roxy-DmA_tG6T.js",
+                      "bytes":  248,
+                      "sha256":  "e4e802a76b93801a656278fed3b2a9f04e45b7b500adac4bd8aed24e3246df0a"
+                  },
+                  {
+                      "path":  "webui/static/assets/RoxyConfig-CeeOMqqa.css",
+                      "bytes":  2324,
+                      "sha256":  "06daa758d4bfc292784a839d5f86682e178e3164b519e502896e5d466a45fee5"
+                  },
+                  {
+                      "path":  "webui/static/assets/RoxyConfig-CfEmxHLa.js",
+                      "bytes":  10055,
+                      "sha256":  "208d1c8c3f4b4e23af0e26f69a5d443bef20bbaff2b0cc576c314fd400173066"
+                  },
+                  {
+                      "path":  "webui/static/assets/RoxyConnectionStatus-0c7N3fv_.js",
+                      "bytes":  3867,
+                      "sha256":  "e931a103d076a4e5b04e9b2202f57630f2b496d4cf7a87bcba942ff5d7806cb5"
+                  },
+                  {
+                      "path":  "webui/static/assets/RoxyConnectionStatus-C-jC-CbK.css",
+                      "bytes":  1110,
+                      "sha256":  "adc9bcb97b975e83e744a11eeb3fde82cdff034efa26469f0120c1cef5f4b2a7"
+                  },
+                  {
+                      "path":  "webui/static/assets/roxySettings-CrSqzqjC.js",
+                      "bytes":  3472,
+                      "sha256":  "720f901360caea6ae3e95eee22e3cbc1ce508b788b4164ba7a8a5662d0c4f049"
+                  },
+                  {
+                      "path":  "webui/static/assets/Runs-DtCRkxTw.js",
+                      "bytes":  2130,
+                      "sha256":  "3db5c3c2209a42ac58a7d4c42aa24f6f9832f9e6b3985f6ca1dd663f26f74266"
+                  },
+                  {
+                      "path":  "webui/static/assets/settings-WQidi7dl.js",
+                      "bytes":  608,
+                      "sha256":  "a0e2fa8ddaff7b490cda5d12958b532296dc707863bb863e7b667c23e4dd8d6a"
+                  },
+                  {
+                      "path":  "webui/static/assets/SmsConfig-CQXQdJcd.js",
+                      "bytes":  8232,
+                      "sha256":  "4d6c006751637e98d45acb3a57b89141910e74610c6002e6458c4ff2667b46b7"
+                  },
+                  {
+                      "path":  "webui/static/assets/StatusDot-ER2y0rgW.css",
+                      "bytes":  216,
+                      "sha256":  "9a26134a842445f2d6dbac26bdab8f1bd07d531ba661aa1d8ec6439a8f2c608d"
+                  },
+                  {
+                      "path":  "webui/static/assets/StatusDot-_HVw-qWc.js",
+                      "bytes":  487,
+                      "sha256":  "24c23fde90af1bb22a59fc31dbd7500c7561a2762819a2874fff92fa2fa2d208"
+                  },
+                  {
+                      "path":  "webui/static/assets/validator-BZ_uBvSO.js",
+                      "bytes":  90,
+                      "sha256":  "ad255b5d2650aca891a24725d9eb6c2b661275cc3c3b0b036dd6b4d50db57be9"
+                  },
+                  {
+                      "path":  "webui/static/assets/_baseClone-CZ9TidaY.js",
+                      "bytes":  4717,
+                      "sha256":  "2e7f325bcbf4f60cd8a8a2ec19f8aca4843010de85f39194f8c5cf5be6bfab07"
+                  }
+              ],
+    "excluded":  [
+                     "webui/*.db*",
+                     "webui/refine-state/**",
+                     ".env*",
+                     "roxy.local.json",
+                     "roxy.settings.json",
+                     ".venv/**",
+                     "webui/frontend/node_modules/**",
+                     "private restore mailbox script",
+                     "RoxyBrowser install and profile"
+                 ]
+}

@@ -1,0 +1,16 @@
+import http from './request'
+
+export const listQualificationPresets = () => http.get('/api/qualification/presets')
+export const listQualificationAccounts = (params) => http.get('/api/qualification/accounts', { params })
+export const selectQualificationAccounts = (params) => http.get('/api/qualification/accounts/selection', { params })
+export const listQualificationProxies = () => http.get('/api/qualification/proxies')
+export const checkQualification = (payload) => http.post('/api/qualification/check', payload)
+export const createQualificationBatch = (payload) => http.post('/api/qualification/batch', payload)
+export const getQualificationBatch = (jobId) => http.get(`/api/qualification/batch/${encodeURIComponent(jobId)}`)
+export const listQualificationBatches = (params) => http.get('/api/qualification/batch', { params })
+export const retryQualificationItem = (jobId, index) => http.post(`/api/qualification/batch/${encodeURIComponent(jobId)}/retry`, { index })
+export const retryQualificationFailures = (jobId) => http.post(`/api/qualification/batch/${encodeURIComponent(jobId)}/retry`, { failed_only: true })
+export const deleteQualificationBatch = (jobId) => http.delete(`/api/qualification/batch/${encodeURIComponent(jobId)}`)
+export const listQualificationAsns = () => http.get('/api/qualification/asn-policy')
+export const configureQualificationAsns = (asns) => http.post('/api/qualification/asn-policy', { asns })
+export const setQualificationAsnEnabled = (asn, enabled) => http.patch(`/api/qualification/asn-policy/${encodeURIComponent(asn)}`, { enabled })
